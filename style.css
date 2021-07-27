@@ -1,0 +1,170 @@
+body {
+    font-family: 'Ubuntu', serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 0;
+    background-color: #E5E5E5;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: auto;
+    height: 300px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    height: auto;
+}
+
+.primary {
+    background-color: #fff;
+    height: auto;
+}
+
+.primary__content {
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.primary__image {
+    height: auto;
+    width: auto;
+}
+
+.primary__string {
+    display: flex;
+}
+
+.primary__info-title {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.table {
+    background-color: #fff;
+}
+
+.table__elements {
+    padding-bottom: 40px;
+}
+
+.table h1 {
+    margin-top: 0;
+}
+
+.table__languages {
+    border: 1px solid #eee;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table__languages th {
+    font-weight: bold;
+    padding: 5px;
+    background: #efefef;
+    border: 1px solid #dddddd;
+}
+
+.table__languages td {
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    text-align: left;
+}
+
+.table__languages tbody tr:nth-child(odd) {
+    background: #fff;
+}
+
+.table__languages tbody tr:nth-child(even) {
+    background: #F7F7F7;
+}
+
+.input {
+    background-color: #fff;
+}
+
+.input__form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.input__name label {
+    margin-left: 53px;
+    padding-right: 20px;
+
+}
+
+.input__name {
+    margin: 0;
+}
+
+.input__phone {
+    padding-top: 40px;
+    padding-bottom: 70px;
+    margin: 0;
+}
+
+.input__phone label {
+    padding-right: 20px;
+
+}
+
+
+.input__field {
+    border: none;
+    border-bottom: #000000 solid 2px;
+    background: none;
+    width: 350px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.input__field::placeholder {
+    color: rgb(185, 185, 185);
+    font-size: 18px;
+}
+
+.input__field:focus {
+    border-bottom: rgba(240, 158, 52, 0.767) solid 2px;
+    outline: none;
+}
+
+.more-info {
+    margin-top: 0;
+    background-color: #fff;
+}
+
+.more-info__btn-block {
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.more-info__btn {
+    font-weight: 700;
+    font-size: 25px;
+    background: none;
+    border: none;
+    margin: 0 auto;
+}
+
+.more-info__btn:hover {
+    color: rgba(240, 158, 52, 0.767);
+}
+
+.more-info__text {
+    font-size: 20px;
+    display: none;
+    padding-bottom: 80px;
+}
