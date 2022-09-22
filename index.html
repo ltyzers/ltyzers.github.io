@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+    </style>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <h2>Денис</h2>
+        </div>
+        <nav class="navigation">
+          <ul class="list">
+            <li><a href="">Привет</a></li>
+            <li><a class="header__link" href="#skills">Умения</a></li>
+            <li><a class="header__link" href="#education">Образование</a></li>
+            <li><a class="header__link" href="#portfolio">Портфолио</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="prime">
+      <div class="container">
+        <img class="photo" src="img/photo.jpg" alt="Фото" />
+        <div class="right-side">
+          <h1>Привет, меня зовут Денис</h1>
+          <p class="description">
+            Я Фомин Денис и я начинающий Frontend разработчик, нахожусь в городе
+            Санкт-Петербург. Сейчас нахожусь в поиске работы. Хочу создавать
+            интересные проеты, совершенствоваться, развиваться и строить
+            карьеру.
+          </p>
+          <div class="block-info">
+            <p class="info">
+              <span class="span-title">ТЕЛЕФОН</span
+              ><span class="contact">+7(999)-570-16-13</span>
+            </p>
+            <p class="info">
+              <span class="span-title">EMAIL</span
+              ><span class="contact">bluebearmir@gmail.com</span>
+            </p>
+            <p class="info">
+              <span class="span-title">СВЯЗЬ</span><a class="contact" href="https://t.me/onepufffman"><img width="25px" height="25px" src="img/tg.svg" alt="Tlgrm logo "></a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+      <div class="container">
+        <div class="skills__left-side">
+          <h2>Умения</h2>
+          <p>
+            Знаком с основным стеком технологий и продолжаю изучать
+            востребованные на рынке продукты.
+          </p>
+        </div>
+        <div class="skills__right-side">
+          <div class="advantages">
+            <h3>Web Development</h3>
+            <p>Javascript, React</p>
+          </div>
+          <div class="advantages">
+            <h3>Frontend Development</h3>
+            <p>HTML, CSS, SASS</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <div class="container">
+        <div class="education__left-side">
+          <h2>Образование</h2>
+          <p>Закончил университет и продолжаю изучать Web.</p>
+        </div>
+        <div class="education__right-side">
+          <h3>Южно-Уральский Государственный Университет</h3>
+          <p>2016-2020</p>
+          <p class="specialization">Программная инженерия</p>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2>Портфолио</h2>
+        <h3 class="projects-title">Учебные проекты (В ДОРАБОТКЕ)</h3>
+        <div class="projects">
+          <a class="project" href="https://ltyzers.github.io/mebel/"
+            ><img width="350px" src="img/mebel.jpg" alt="Web-page screen"
+          /></a>
+          <a class="project" href="https://ltyzers.github.io/swarma/"
+            ><img width="350px" src="img/swarma.jpg" alt="Web-page screen"
+          /></a>
+          <a class="project" href="https://ltyzers.github.io/react-sneakers/#/"
+            ><img
+              width="350px"
+              src="img/react-sneakers.jpg"
+              alt="Web-page screen"
+          /></a>
+        </div>
+      </div>
+    </section>
+    <footer>Copyright 2022.</footer>
+    <script src="index.js"></script>
+  </body>
+</html>
