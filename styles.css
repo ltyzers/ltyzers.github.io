@@ -95,20 +95,20 @@ h2::after {
   font-weight: 700;
   margin-bottom: 10px;
 }
-/* .info:first-child .contact {
+.info:first-child .contact {
   padding-left: 30px;
 }
 .info:nth-child(2) .contact {
   padding-left: 60px;
+}
+.info:nth-child(3) .contact {
+  padding-left: 120px;
 }
 .info:last-child .contact {
   padding-left: 50px;
 }
 .info:last-child {
   align-items: center;
-} */
-.contact {
-  right: 0px;
 }
 .info .link {
   padding-left: 120px;
